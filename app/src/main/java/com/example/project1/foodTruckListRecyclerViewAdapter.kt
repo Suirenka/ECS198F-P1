@@ -34,17 +34,7 @@ class foodTruckListRecyclerViewAdapter(private var trucks: List<FoodTruck>)
         holder.truckNameView.text = truck.name;
         holder.truckLocationView.text = truck.location;
         holder.truckTimeView.text = truck.time;
-        val n = truck.img + 1;
-        holder.truckImgView.setImageResource(when(n)
-        {
-            1 -> R.drawable.authentic_street_taco
-            2 -> R.drawable.bangin_bowls
-            3 -> R.drawable.buckhorn_grill_jpeg
-            4 -> R.drawable.hefty_gyros
-            5 -> R.drawable.shah_s_halal
-            6 -> R.drawable.star_ginger
-            else -> throw Exception("n must bet 1 - 6")
-        })
+        holder.truckImgView.setImageResource(truck!!.img)
         holder.itemView.setOnClickListener { truckInfo ->
             val intent = Intent(truckInfo.context, FoodTruckDetail::class.java)
             intent.putExtra("Name", truck)

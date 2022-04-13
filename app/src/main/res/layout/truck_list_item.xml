@@ -98,7 +98,7 @@
 
             <ImageView
                 android:id="@+id/truckImgView"
-                android:layout_width="418dp"
+                android:layout_width="0dp"
                 android:layout_height="264dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

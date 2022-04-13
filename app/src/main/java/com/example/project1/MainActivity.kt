@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         FoodTruck(
             0,
             "Authentic Street Taco",
-            0,
+            R.drawable.authentic_street_taco,
             "Silo Patio",
             "11am - 4pm",
             "A unique blend of street taco with high-quality" +
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         FoodTruck(
             1,
             "BuckhornGrill",
-            1,
+            R.drawable.buckhorn_grill_jpeg,
             "Silo Patio",
             "10am - 2pm",
             "The idea of the Buckhorn Grill was born out of" +
@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         FoodTruck(
             2,
             "Shah's Halal",
-            2,
+            R.drawable.shah_s_halal,
             "Silo Patio",
             "12am - 4pm",
             "Owned and operated by Tory Mashriqi, Shah’s" +
@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
         FoodTruck(
             3,
             "Star Ginger",
-            3,
+            R.drawable.star_ginger,
             "Silo Patio",
             "1pm - 4pm",
             "Fresh Asian flavors for campus, corporate, government, healthcare and leisure",
@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
         FoodTruck(
             4,
             "Bangin Bowls",
-            4,
+            R.drawable.bangin_bowls,
             "Tercero DC",
             "2pm - 6pm",
             "We are a Latin fusion food truck buffet, inspired" +
@@ -84,7 +84,7 @@ class MainActivity : AppCompatActivity() {
         FoodTruck(
             5,
             "Hefty Gyros",
-            5,
+            R.drawable.hefty_gyros,
             "Storer Hall",
             "1pm - 4pm",
             "Hefty Gyros is a family owned and operated food" +

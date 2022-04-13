@@ -23,17 +23,7 @@ class FoodTruckDetail : AppCompatActivity() {
         binding.TimeTextView.text = truck!!.time
         binding.locationTextView.text = truck!!.location
         binding.descriptionTextView.text = truck!!.description
-        val n = truck!!.img + 1;
-        binding.imageView.setImageResource(when(n)
-        {
-            1 -> R.drawable.authentic_street_taco
-            2 -> R.drawable.bangin_bowls
-            3 -> R.drawable.buckhorn_grill_jpeg
-            4 -> R.drawable.hefty_gyros
-            5 -> R.drawable.shah_s_halal
-            6 -> R.drawable.star_ginger
-            else -> throw Exception("n must bet 1 - 6")
-        })
+        binding.imageView.setImageResource(truck!!.img)
         val link = truck!!.link
         binding.urlTextView.setOnClickListener {
             val intent = Intent(Intent.ACTION_VIEW)
