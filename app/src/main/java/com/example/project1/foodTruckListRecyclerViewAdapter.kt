@@ -34,7 +34,7 @@ class foodTruckListRecyclerViewAdapter(private var trucks: List<FoodTruck>)
         holder.truckNameView.text = truck.name;
         holder.truckLocationView.text = truck.location;
         holder.truckTimeView.text = truck.time;
-        val n = truck.id + 1;
+        val n = truck.img + 1;
         holder.truckImgView.setImageResource(when(n)
         {
             1 -> R.drawable.authentic_street_taco

@@ -23,7 +23,7 @@ class FoodTruckDetail : AppCompatActivity() {
         binding.TimeTextView.text = truck!!.time
         binding.locationTextView.text = truck!!.location
         binding.descriptionTextView.text = truck!!.description
-        val n = truck!!.id + 1;
+        val n = truck!!.img + 1;
         binding.imageView.setImageResource(when(n)
         {
             1 -> R.drawable.authentic_street_taco
